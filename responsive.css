@@ -1,0 +1,69 @@
+
+@media all and (max-width: 768px){
+	.connect-area,
+	.signup-area {
+		width: 100%;
+		float: none;
+	}
+	.connect-area,
+	.footer-area,
+	.signup-area{text-align: center;}
+}
+@media all and (max-width:768px) {
+	.header-area .logo-area {
+		float: none;
+		margin-bottom: 20px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.header-area .login-area {
+		width: 100%;
+
+	}
+
+	.login-area form {
+		float: none;
+		width: 368px;
+		margin: auto;
+	}
+}
+
+@media all and (max-width:546px) {
+
+	.header-area .login-area form{
+		width:100%; 
+
+	}
+
+	.login-area .username-area {
+		float: none;
+		width: 100%;
+	}
+	.login-area label{font-size: 16px;}
+	.login-area a{font-size: 16px;}
+
+	.login-area .password-area 
+	{
+		float: none;
+		width: 100%;
+	}
+
+	.login-area .username-area input {
+		width: 99%;
+		padding: 5px 5px;
+		font-size:13px;
+		border-radius: 8px;
+		box-sizing: border-box;
+		
+	}
+
+	.login-area .password-area input {
+		width: 99%;
+		padding: 5px 5px;
+		font-size:13px;
+		border-radius: 8px;
+		box-sizing: border-box;
+	}
+	.login-area .submit-area input {padding: 4px 20px; float: left;overflow: hidden;font-size: 16px;}
+}
