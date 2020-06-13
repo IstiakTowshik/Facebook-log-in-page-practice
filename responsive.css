@@ -1,19 +1,23 @@
+@media all and (max-width: 768px) {
 
-@media all and (max-width: 768px){
 	.connect-area,
 	.signup-area {
 		width: 100%;
 		float: none;
 	}
+
 	.connect-area,
 	.footer-area,
-	.signup-area{text-align: center;}
+	.signup-area {
+		text-align: center;
+	}
 }
+
 @media all and (max-width:768px) {
 	.header-area .logo-area {
 		float: none;
 		margin-bottom: 20px;
-		width: 50%;
+		width: 100%;
 		text-align: center;
 	}
 
@@ -21,19 +25,22 @@
 		width: 100%;
 
 	}
-	.submit-area input{text-align: center;}
 
-	.login-area form {
+	.submit-area input {
+		text-align: center;
+	}
+
+	.login-area {
 		float: none;
-		width: 100%;
+
 		text-align: center;
 	}
 }
 
 @media all and (max-width:546px) {
 
-	.header-area .login-area form{
-		width:100%; 
+	.header-area .login-area form {
+		width: 100%;
 
 	}
 
@@ -41,11 +48,16 @@
 		float: none;
 		width: 100%;
 	}
-	.login-area label{font-size: 16px;}
-	.login-area a{font-size: 16px;}
 
-	.login-area .password-area 
-	{
+	.login-area label {
+		font-size: 16px;
+	}
+
+	.login-area a {
+		font-size: 16px;
+	}
+
+	.login-area .password-area {
 		float: none;
 		width: 100%;
 	}
@@ -53,18 +65,27 @@
 	.login-area .username-area input {
 		width: 99%;
 		padding: 5px 5px;
-		font-size:13px;
+		font-size: 13px;
 		border-radius: 8px;
 		box-sizing: border-box;
-		
+
 	}
 
 	.login-area .password-area input {
 		width: 99%;
 		padding: 5px 5px;
-		font-size:13px;
+		font-size: 13px;
 		border-radius: 8px;
 		box-sizing: border-box;
 	}
-	.login-area .submit-area input {padding: 4px 20px; float: left;overflow: hidden;font-size: 16px;}
+
+	.login-area .submit-area{text-align: center;width: 100%;padding-top: 20px;}
+	.login-area .submit-area
+	input {
+		padding: 4px 20px;
+		
+		margin: auto;
+		overflow: hidden;
+		font-size: 16px;
+	}
 }
