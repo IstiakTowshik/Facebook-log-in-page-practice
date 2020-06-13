@@ -21,11 +21,12 @@
 		width: 100%;
 
 	}
+	.submit-area input{text-align: center;}
 
 	.login-area form {
 		float: none;
-		width: 368px;
-		margin: auto;
+		width: 100%;
+		text-align: center;
 	}
 }
 
